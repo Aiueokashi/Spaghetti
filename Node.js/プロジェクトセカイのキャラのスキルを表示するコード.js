@@ -1,4 +1,5 @@
-    const SKILL =
+//絶対if文のほうがよかった    
+const SKILL =
         CARD_PREFIX[CARD_POS].skillId > 4 && CARD_PREFIX[CARD_POS].skillId < 11
             ? CARD_PREFIX[CARD_POS].skillId < 8
                 ? CARD_SKILL[CARD_PREFIX[CARD_POS].skillId - 1].description
